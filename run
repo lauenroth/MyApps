@@ -1,0 +1,3 @@
+Run a server on localhost:
+
+php -S localhost:8800
