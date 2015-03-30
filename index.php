@@ -23,7 +23,7 @@
 <body>
 <header class="main">
   <section>
-    <a class="button" href="?new">Add app</a>
+    <a class="button" href="?new">New app</a>
     <a href="/" id="logo">MyApps</a>
   </section>
 </header>
@@ -34,11 +34,10 @@
 
   if (isset($_GET['app'])) {
     $app = $myApps->getApp($_GET['app']);
-    // echo '<h1>' . ucfirst($_GET['app']) . '</h1> <p>show app details</p>';
     include 'templates/appDetails.php';
   }
   elseif (isset($_GET['new'])) {
-    echo 'Create new app';
+    include 'templates/newApp.php';
   }
   else {
     echo '<p>Please select an app or create a new one.</p>';

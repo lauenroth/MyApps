@@ -282,12 +282,24 @@ button.alt:hover,
 /**
  * Create new app
  */
+#new-app input[type="text"] {
+  margin-bottom: 1em;
+}
 #new-app textarea {
   height: 53px;
   line-height: 1.2em;
 }
 #new-app textarea:focus {
   height: 5.6em;
+}
+#new-app label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+#new-app .framework label,
+#new-app .misc label {
+  display: inline-block;
 }
 #new-app label img {
   border: 2px solid #E1E1E1;
@@ -326,6 +338,10 @@ button.alt:hover,
 }
 #new-app .misc input {
   height: 15px;
+}
+#new-app label.check {
+  margin-bottom: 0;
+  font-size: 1em;
 }
 
 
