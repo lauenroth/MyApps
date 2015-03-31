@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d0bf4c84d9b52109ee4cd488adbffbe2",
+    "packages": [
+        {
+            "name": "khal3d/phpline",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khal3d/phpline.git",
+                "reference": "0260fdf0ec2cb9ef139108706ab6de9b456d36cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khal3d/phpline/zipball/0260fdf0ec2cb9ef139108706ab6de9b456d36cd",
+                "reference": "0260fdf0ec2cb9ef139108706ab6de9b456d36cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPLine": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Khaled Attia",
+                    "email": "khaledattia@gmail.com",
+                    "homepage": "http://khal3d.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Execute command line using php",
+            "homepage": "https://github.com/khal3d/phpline",
+            "keywords": [
+                "cli",
+                "cmd",
+                "command line",
+                "console",
+                "shell",
+                "terminal"
+            ],
+            "time": "2013-05-09 09:54:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
